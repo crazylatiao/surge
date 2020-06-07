@@ -14,10 +14,7 @@ GitHub: Neurogram-R
 */
 
 const accounts = [
-    ["隔壁西站", "https://example.com/auth/login", "example@v2bz.com", "password"],
-    ["DlerCloud", "https://example.com/auth/login", "example@dlercloud.com", "password"],
-    ["CCCAT", "https://example.com/user/login.php", "example@cccat.com", "password"]
-]
+    ["pg", "https://pgyun.cc/pgyun_user", "2715514257@qq.com", "crazykk520"],
 
 const autoLogout = false
 
