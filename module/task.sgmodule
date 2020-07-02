@@ -104,35 +104,35 @@ AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent
 
 # 打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com
 
-哔哩哔哩 = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
+哔哩哔哩 = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,script-update-interval=0
 
 # 如需银瓜子转硬币，取消下方注释
 
-瓜子转硬币 = type=cron,cronexp=40 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
+瓜子转硬币 = type=cron,cronexp=40 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js,script-update-interval=0
 
 # 网易云音乐
 
 # 浏览器访问并登录: https://music.163.com/m/login
 
-网易云音乐 = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
+网易云音乐 = type=cron,cronexp=0 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
 
 # 人人视频
 
 # 打开 APP, 访问下`个人中心`
 
-人人视频 = type=cron,cronexp=15 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+人人视频 = type=cron,cronexp=15 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
 
 # 什么值得买
 
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 
-什么值得买 = type=cron,cronexp=25 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
+什么值得买 = type=cron,cronexp=25 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
 
 # 腾讯视频
 
 # 1.手机浏览器访问并登录: https://film.qq.com/
 
-腾讯视频 = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
+腾讯视频 = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
 
 # 喜马拉雅
 
@@ -144,7 +144,7 @@ AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent
 
 # 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 
-美团外卖 = type=cron,cronexp=35 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,script-update-interval=0
+#美团外卖 = type=cron,cronexp=35 2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js,script-update-interval=0
 
 
 # 叮咚买菜
@@ -157,7 +157,7 @@ AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent
 
 # 打开 APP 手动签到一次: 访问下右下角 `我的考拉` > `领考拉豆` > `签到`
 
-网易考拉 = type=cron,cronexp=30 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js,script-update-interval=0
+#网易考拉 = type=cron,cronexp=30 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.js,script-update-interval=0
 
 # WPS
 
@@ -181,7 +181,7 @@ WPS = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.c
 
 # 首页  > 天天低价
 
-苏宁易购 = type=cron,cronexp=50 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,script-update-interval=0
+#苏宁易购 = type=cron,cronexp=50 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,script-update-interval=0
 
 #  其他
 
@@ -189,13 +189,13 @@ WPS = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.c
 
 # 打开 APP, 访问下`我的`>`签到领红包`(左上角)
 
-饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
+#饿了么 = type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js,script-update-interval=0
 
-饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
+#饿了么-打卡领红包= type=cron,cronexp=35 4 0 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js
 
 # > 斗鱼鱼吧 By @yyfyyf123
 
-斗鱼鱼吧 = type=cron,cronexp=40 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/yubaSign.js,script-update-interval=0
+#斗鱼鱼吧 = type=cron,cronexp=40 4 0 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/yubaSign.js,script-update-interval=0
 
 # > 京东成长分 (By @barrymchen)
 
@@ -207,7 +207,7 @@ WPS = type=cron,cronexp=35 3 0 * * *,script-path=https://raw.githubusercontent.c
 
 # APP登陆账号后，点击主页’签到‘,即可
 
-京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
+#京东到家 = type=cron,cronexp=25 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js,script-update-interval=0
 
 # > 快手极速版 (By @Macsuny)
 
